@@ -22,7 +22,7 @@
                 <constant>recovered</constant>
             </setHeader>
             <setHeader headerName="sensor">
-                <constant>XX0X-X01-PHSEN-ABCDEF-R00</constant>
+                <constant>XX0XXXXX-XXX01-00-PHSENR000</constant>
             </setHeader>            
             <to uri="jms-durable:queue:Ingest.phsen_abcdef_recovered" />
         </route>
